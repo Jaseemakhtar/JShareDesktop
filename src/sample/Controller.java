@@ -19,6 +19,13 @@ public class Controller implements Initializable, EventHandler<ActionEvent> {
         btnConnect.setOnAction(this);
         btnReceive.setOnAction(this);
         btnSend.setOnAction(this);
+        SingleRow singleRow = new SingleRow();
+        singleRow.setCurrentProgress("40%");
+        singleRow.setFileName("Avengers.Infinity.War.1080p.mkv");
+        singleRow.setItemNumber("1");
+        singleRow.setProgress(40.0);
+
+
     }
 
     @Override

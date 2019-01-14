@@ -25,6 +25,7 @@
             <TableColumn minWidth="0.0" prefWidth="198.0" text="Progress" />
             <TableColumn minWidth="0.0" prefWidth="75.0" text="Value" />
         </columns>
+
       </TableView>
    </children>
 </AnchorPane>
