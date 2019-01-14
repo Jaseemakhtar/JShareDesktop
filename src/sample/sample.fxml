@@ -7,16 +7,16 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="520" prefWidth="740" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<AnchorPane prefHeight="520" prefWidth="740" xmlns="http://javafx.com/javafx/8.0.11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
-      <TextField id="txtIPAddress" layoutX="14.0" layoutY="481.0" promptText="Enter IP Address" />
-      <Button id="btnConnect" layoutX="163.0" layoutY="481.0" mnemonicParsing="false" text="Connect" />
-      <Button id="btnReceive" layoutX="669.0" layoutY="481.0" mnemonicParsing="false" text="Receive" />
-      <Button id="btnSend" layoutX="614.0" layoutY="481.0" mnemonicParsing="false" text="Send" />
+      <TextField fx:id="txtIPAddress" layoutX="14.0" layoutY="481.0" promptText="Enter IP Address" visible="false" />
+      <Button fx:id="btnConnect" layoutX="163.0" layoutY="481.0" mnemonicParsing="false" text="Connect" visible="false"/>
+      <Button fx:id="btnReceive" layoutX="669.0" layoutY="481.0" mnemonicParsing="false" text="Receive" />
+      <Button fx:id="btnSend" layoutX="614.0" layoutY="481.0" mnemonicParsing="false" text="Send" />
       <Label layoutX="223.0" layoutY="25.0" text="Send &amp; Receive Files Across  different devices" textAlignment="CENTER">
          <font>
             <Font size="16.0" />
          </font></Label>
-      <ListView id="listView" layoutX="14.0" layoutY="91.0" prefHeight="373.0" prefWidth="710.0" />
+      <ListView fx:id="listView" layoutX="14.0" layoutY="91.0" prefHeight="373.0" prefWidth="710.0" />
    </children>
 </AnchorPane>
